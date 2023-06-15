@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <script src="js/scripts.js"></script>
+    <title>Voter Information</title>
+  </head>
+  <body>
+    <form>
+      <label>
+        We need to verify that you are over 18 years of age to be able to vote.
+        What is your age?</label
+      >
+      <input id="age" type="number" />
+      <button type="submit">Submit!</button>
+    </form>
+
+    <div id="voter" class="hidden">
+      <h1 id="voter-information"></h1>
+      <h1>Voter information</h1>
+      <h2>Steps to vote:</h2>
+      <ol>
+        <li>
+          Register to vote here:
+          <a href="https://www.usa.gov/register-to-vote">Register</a>
+        </li>
+        <li>
+          Find a ballot drop off location near you:
+          <a href="https://www.vote.org/dropbox-locator">Dropbox location</a>
+        </li>
+      </ol>
+    </div>
+    <div id="under-18" class="hidden">
+      <h1>Learn about voting</h1>
+      <ul>
+        <li>
+          <a
+            href="https://www.whitehouse.gov/about-the-white-house/our-government/elections-and-voting/"
+            >Elections and voting</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
